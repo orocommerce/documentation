@@ -1,11 +1,14 @@
-:orphan:
+..  _doc--community--code-style:
 
 Code Style
-----------
+==========
 
 Code style is a set of conventions about how to write code. It is introduced for easier understanding of the large codebase by the wide-spread Oro community.
 
 The following code styles are used in all Oro projects, except for projects based on the frameworks, libraries or CMS where other conventions have been adopted.
+
+.. contents:: :local:
+    :depth: 3
 
 PHP Code Style
 ^^^^^^^^^^^^^^
@@ -18,7 +21,7 @@ PSR-2 is considered a code standard of the PHP code style.
 
 
 Default line break separator is LF (\n) - Unix and OS X style.
-  
+
   .. note:: To eliminate issues with this requirement, it is recommended to configure IDE and always use appropriate line break separator. How to configure this in PHPStorm could be found `here <https://www.jetbrains.com/help/phpstorm/2016.3/configuring-line-separators.html>`_
 
 **DocBlock**
@@ -195,11 +198,11 @@ Cyclomatic complexity is determined by the number of decision points in a method
 
 There are many good reasons to limit cyclomatic complexity. Overly complex modules are more prone to error, harder to understand, test and modify. Deliberately limiting complexity at all stages of software development, for example as a departmental standard, helps avoid the pitfalls associated with high complexity software. But there were occasional reasons for going beyond the agreed-upon limit. For example, Thomas McCabe originally recommended exempting modules consisting of single multi-way decision (“switch” or “case”) statements from the complexity limit. And suggested the most effective policy: “For each module, either limit cyclomatic complexity to 10 (as discussed earlier, an organization can substitute a similar number), or provide a written explanation of why the limit was exceeded.” (see `Structured Testing: A Testing Methodology Using the Cyclomatic Complexity Metric <http://www.mccabe.com/pdf/mccabe-nist235r.pdf>`_).
 
-Cyclomatic complexity limits suggestions are the following: 
+Cyclomatic complexity limits suggestions are the following:
 
 - PHP: 1-4 is low complexity, 5-7 indicates moderate complexity, 8-10 is high complexity, and 11+ is very high complexity (see `PHPMD <https://phpmd.org/rules/codesize.html>`_).
 - `Java <http://www.javaworld.com/article/2074995/dealing-cyclomatic-complexity-in-java-code.html>`_ 1–10 to be considered a Normal application, 11–20 Moderate application, 21–50 Risky application, more than 50 Unstable application (also see `here, by GMetrics <http://gmetrics.sourceforge.net/gmetrics-CyclomaticComplexityMetric.html>`_).
-- .Net: 1 to 10 a simple program, without very much risk; 11 to 20 a more complex program, moderate risk; 21 to 50 a complex, high risk program; > 50 an un-testable `program <https://www.codeproject.com/articles/11719/cyclomatic-code-complexity-analysis-for-microsoft>`_ (very high risk). 
+- .Net: 1 to 10 a simple program, without very much risk; 11 to 20 a more complex program, moderate risk; 21 to 50 a complex, high risk program; > 50 an un-testable `program <https://www.codeproject.com/articles/11719/cyclomatic-code-complexity-analysis-for-microsoft>`_ (very high risk).
 - Microsoft recommendation is to warn when Cyclomatic complexity is more than 25 (`CA1502 <https://msdn.microsoft.com/en-us/library/ms182212.aspx>`_).
 - `McCabe <http://www.mccabe.com/pdf/mccabe-nist235r.pdf>`_ originally proposed the limit of 10 since it has significant supporting evidence, but limits as high as 15 have been used successfully as well.
 
@@ -276,3 +279,24 @@ CSS and HTML Code Style
 There are no defined code styles for the CSS and HTML.
 
 It is recommended to use same code style that is used in `Bootstrap <http://getbootstrap.com/>`_.
+
+
+
+See Also
+--------
+
+:ref:`Version Control <code-version-control>`
+
+:ref:`Set Up a Development Environment <doc--dev-env-best-practices>`
+
+:ref:`Contribute to Translations <doc--community--ui-translations>`
+
+:ref:`Contribute to Documentation <documentation-standards>`
+
+:ref:`Report an Issue <doc--community--issue-report>`
+
+:ref:`Report a Security Issue <reporting-security-issues>`
+
+:ref:`Contact Community <doc--community--contact-community>`
+
+:ref:`Release Process <doc--community--release>`

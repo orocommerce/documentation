@@ -1,58 +1,66 @@
-Contributing to Oro Source Code
-===============================
+.. _contributing:
 
-We'd love for you to contribute to a free OroCommerce Community Edition open source code and related documentation. The following guidelines and recommendations help synchronize the community actions and provide a blueprint for seamless and non-intrusive collaboration.
+Contribute to the Source Code, Translations, and Documentation
+==============================================================
 
-Code Version Control
---------------------
+.. begin_contribute
 
-The following is a set of conventions about code version control that strives to provide the best way to communicate enough context about every committed code change to fellow developers.
-These code version control conventions should be used in all Oro projects, except for the projects that adopted some other conventions.
+We would love you to contribute to our source code and documentation, and help us to translate Oro products into multiple languages. The following guidelines and recommendations enable the community to synchronize actions and provide a blueprint for seamless and non-intrusive collaboration.
 
-Git and Tools
-^^^^^^^^^^^^^
 
-`Git <https://git-scm.com/>`_ is the official version control system used for the majority of the Oro projects. It allows for easy distribution of the source code and keeps each change under version control.
+* :ref:`Use Version Control <code-version-control>`
 
-`GitHub <https://github.com/>`_ is our main collaborative development tool, so if you do not have an account yet, please `sign up <https://github.com/join>`_.
+  Version control is a way to track all the changes made to the product. This topic tells you about the code version system used and describes the way to communicate enough context for every committed code change to fellow developers.
 
-There is a number of tools to manage git repositories, for instance:
+* :ref:`Follow Code Style <doc--community--code-style>`
 
-- CLI git tools
-- PhpStorm Git Integration plugin
-- SourceTree.
-- SmartGit, to name a few.
+  Code style is a set of conventions about how to write the source code. The following code styles are used in all Oro projects.
 
-.. Code Style
-.. ==========
-.. Please follow the `Oro code Style <code-style>`_ guidelines.
+* :ref:`Set Up a Development Environment <doc--dev-env-best-practices>`
 
-Submitting a Pull Request
--------------------------
+  This article describes best practices in setting up a development environment. It up to you
+  whether to follow the listed recommendation, however take a note that they can greatly facilitate the development
+  process.
 
-The best way to contribute a bug fix or enhancement is to submit a `pull request`_ to the `OroCommerce <http://github.com/orocommerce/application>`_ repository on Github.
+* :ref:`Contribute to Translations <doc--community--ui-translations>`
 
-Before you submit your pull request consider the following guidelines:
+  Oro applications support localization and internationalization for multiple languages and locales. In this topic
+  you will find general instructions on how to join the Oro translation team and submit you translations.
 
-* Search GitHub for an open or closed Pull Request that relates to your submission. You don't want to duplicate effort.
-* Please sign our `Contributor License Agreement`_ before submitting pull requests. The CLA must be signed for any code or documentation changes to be accepted.
+* :ref:`Contribute to Documentation <documentation-standards>`
 
-Commit Message
-^^^^^^^^^^^^^^
+  The documentation is an important part of the product that greatly improve the user experience regarding how to
+  configure and use the product. The information in this topic help you understand the documentation structure, useful rst directives, and a simple workflow that helps quickly publish a new topic.
 
-The merge commit message contains the message from the author of the changes. This can help understand what the changes were about and the reasoning behind the changes. Therefore, commit messages should include a list of performed actions or changes in the code:
+.. finish_contribute
 
-<Commit summary>
-
-- <action 1>
-- <action 2>
-- <action 3>
-- ...
+.. _contributing--cla:
 
 Signing a Contributor License Agreement
 ---------------------------------------
 
 Although signing the `Contributor License Agreement`_ is a prerequisite for accepting your pull request, you only need to do it once. So, if you've done this for any of our open source projects, you're good to go with all of them. If you are submitting a pull request for the first time, our friendly *orocla* robot will automatically add a reminder to your pull request.
 
-.. _pull request:   https://help.github.com/articles/using-pull-requests
+.. _pull request: https://help.github.com/articles/using-pull-requests
 .. _Contributor License Agreement: https://www.orocommerce.com/contributor-license-agreement
+
+See Also
+--------
+
+:ref:`Report an Issue <doc--community--issue-report>`
+
+:ref:`Report a Security Issue <reporting-security-issues>`
+
+:ref:`Contact Community <doc--community--contact-community>`
+
+:ref:`Release Process <doc--community--release>`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   code_style
+   code_version_control
+   code_dev_env
+   code_ui_translations
+   documentation
