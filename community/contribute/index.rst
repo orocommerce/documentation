@@ -1,7 +1,9 @@
 .. _contributing:
 
-Contribute to the Source Code, Translations, and Documentation
-==============================================================
+Contribute
+==========
+
+**To the Source Code, Translations, and Documentation**
 
 .. begin_contribute
 

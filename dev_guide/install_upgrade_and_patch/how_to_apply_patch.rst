@@ -1,7 +1,7 @@
 .. index::
     single: Patch
 
-How to apply patch
+How to Apply Patch
 ==================
 
 The patch file name supports the following naming convention: {package}-{version_to_apply}.patch.

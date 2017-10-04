@@ -2,7 +2,7 @@
     single: Application; Co-install applications
     single: Application
 
-How to co-install OroCommerce and OroCRM
+How to Co-install OroCommerce and OroCRM
 ========================================
 
 .. note::

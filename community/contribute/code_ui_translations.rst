@@ -1,7 +1,7 @@
 .. _doc--community--ui-translations:
 
-Contributing to Translations
-============================
+Contribute to Translations
+==========================
 
 .. contents:: :local:
 
@@ -87,7 +87,7 @@ Update Translation in Oro Application
 Contact Oro Translation Team
 ----------------------------
 
-.. include:: ./issues/translation.rst
+.. include:: /community/issues/translation.rst
    :start-after: begin
 
 See Also
@@ -108,7 +108,6 @@ See Also
 :ref:`Contact Community <doc--community--contact-community>`
 
 :ref:`Release Process <doc--community--release>`
-
 
 .. include:: /user_guide/include_images.rst
    :start-after: begin
