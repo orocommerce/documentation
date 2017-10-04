@@ -8,6 +8,8 @@ This section contains information on optional OroCommerce post-install configura
 .. toctree::
    :maxdepth: 1
 
+   /user_guide/system/quick_search
+
    /user_guide/system/commerce_configuration/index
 
    /user_guide/marketing/configuration/index
@@ -25,5 +27,7 @@ This section contains information on optional OroCommerce post-install configura
    /user_guide/system/integrations/index
 
    /user_guide/system/email/index
+
+   general_setup/index
 
    /user_guide/system/glossary

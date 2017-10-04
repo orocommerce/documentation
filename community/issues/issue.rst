@@ -1,5 +1,7 @@
-Submitting an Issue
-===================
+.. _doc--community--issue-report:
+
+Report an Issue
+===============
 
 We are using GitHub as a bug tracker. If you find a bug in the source code or a mistake in the documentation, you can help us by submitting an issue to our GitHub repository.
 
@@ -14,6 +16,9 @@ Before you submit your issue search on GitHub, make sure that the same issue has
     **Reporting security issues**
 
     Responsible disclosure is the industry best practice, and we ask you to use `this procedure <./issues/security>`_ to report security issues. Please never post security issues publicly!
+
+Best Practice
+^^^^^^^^^^^^^
 
 Providing the following information will increase the chances of your issue being dealt with quickly:
 
@@ -31,4 +36,26 @@ Providing the following information will increase the chances of your issue bein
 * A screenshot or multiple screenshots of the user interface
 * Relevant excerpts from the web-server and application log files.
 
-Here is an example of a well defined issue: https://github.com/orocrm/platform/issues/410
+Example of a Well Defined Issue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Title**: Inconsistent display of address fields when adding address to the contact.
+
+**Description**: While adding a new address to the contact, some fields in the new address form become mandatory, while all the fields are optional in the initial address form.
+
+**Steps to reproduce**:
+
+  - Navigate to **Customers > Contacts** in the main menu.
+  - Choose any contact and open its edit page.
+  - Proceed to **Addresses** section and click **+Add** button.
+  - A new form will emerge. Compare the initial form and the new one.
+
+**Expected Result**: The new form should be the same as the initial one.
+
+**Actual Result**: Country, street, city and zip/postal code fields are mandatory in the new form.
+
+**Environment**: OroCRM 1.10.8, Win10 64x, FireFox 50.1.0
+
+**Screenshot**:
+
+.. image:: /user_guide/img/common/contacts.jpg

@@ -9,13 +9,29 @@ Images
 
    <i class="fa fa-close fa-lg" aria-hidden="true"></i>
 
+.. |IcMarkProcessed| raw:: html
+
+   <i class="fa fa-archive fa-lg" aria-hidden="true"></i>
+
+.. |IcSend| raw:: html
+
+   <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+
+.. |IcDecline| raw:: html
+
+   <i class="fa fa-minus-square fa-lg" aria-hidden="true"></i>
+
+.. |IcRequestMoreInfo| raw:: html
+
+   <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+
 .. |IcActivate| raw:: html
 
    <i class="fa fa-check fa-lg" aria-hidden="true"></i>
 
 .. |IcExpireQuote| raw:: html
 
-   <i class="fa fa-clock fa-lg" aria-hidden="true"></i>
+   <i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>
 
 .. |IcUndo| raw:: html
 
@@ -126,6 +142,14 @@ Images
 .. |IcMore| raw:: html
 
    <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
+
+.. |IcMerge| raw:: html
+
+   <i class="fa fa-random fa-lg" aria-hidden="true"></i>
+
+.. |IcMergeAccounts| raw:: html
+
+   <i class="fa fa-random fa-lg" aria-hidden="true"></i>
 
 .. |IcDashboard| raw:: html
 
@@ -255,6 +279,34 @@ Images
 
    <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
 
+.. |IcListAlt| raw:: html
+
+   <i class="fa fa-list-alt fa-lg" aria-hidden="true"></i>
+
+.. |IcAddNote| raw:: html
+
+   <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+
+.. |IcCloudDownload| raw:: html
+
+   <i class="fa fa-cloud-download fa-lg" aria-hidden="true"></i>
+
+.. Check mark in the square.
+
+.. |IcCheckSquareO| raw:: html
+
+   <i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+
+.. SortDesc is also used as drop-down arrow
+
+.. |IcSortDesc| raw:: html
+
+   <i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i>
+
+.. |IcMinus| raw:: html
+
+   <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+
 .. |IcHandle| image:: /user_guide/img/getting_started/buttons/IcHandle.png
    :target: https://www.orocommerce.com/wp-content/uploads/sites/3/documentation/orocommerce/documentation/current/IcHandle.png
    :align: middle
@@ -326,9 +378,6 @@ Images
 .. |IcSaveChanges| image:: /user_guide/img/getting_started/buttons/IcSaveChanges.png
    :align: middle
 
-.. |IcMerge| image:: /user_guide/img/getting_started/buttons/IcMerge.png
-   :align: middle
-
 .. |IcFilters| image:: /user_guide/img/getting_started/buttons/IcFilters.png
    :align: middle
 
@@ -347,6 +396,10 @@ Images
 .. |IcShoppingLists| raw:: html
 
    <i class="fa fa-clipboard" aria-hidden="true"></i>
+
+.. |IcCheckout| raw:: html
+
+   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 
 .. |IcSub| image:: /user_guide/img/getting_started/buttons/IcSub.png
    :align: middle
@@ -374,4 +427,3 @@ Images
 
 .. |InstallPack| image:: /admin_guide/img/extension/install_package.png
    :align: middle
-

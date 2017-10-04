@@ -11,7 +11,7 @@ To view all promotions, navigate to **Marketing > Promotions > Promotions** in t
 
 The following page opens:
 
-.. image:: /user_guide/img/marketing/promotions/PromotionsGrid.png
+.. image:: /user_guide/img/marketing/promotions/PromotionsGridNew.png
 
 
 You can perform the following actions with every item on the list:
@@ -28,7 +28,7 @@ You can perform the following actions with every item on the list:
 
  * Delete a promotion: Click |IcDelete| to remove a promotion from the system.
 
- * Create promotion: click **Create Promotion** in the top right corner.
+ * Create promotion: Click **Create Promotion** in the top right corner.
 
 
 In addition to viewing promotion details, you can perform the following actions on the promotions page:
@@ -36,9 +36,9 @@ In addition to viewing promotion details, you can perform the following actions 
 * Duplicate: |IcClone| **Duplicate**
 * Edit: |IcEdit| **Edit**
 * Delete: |IcDelete| **Delete**
-* Add Note: **Add Note**
+* Add Note: |IcAddNote| **Add Note**
 
-.. image:: /user_guide/img/marketing/promotions/PromotionsViewPage.png
+.. image:: /user_guide/img/marketing/promotions/ViewPromotionNew.png
 
 .. finish
 

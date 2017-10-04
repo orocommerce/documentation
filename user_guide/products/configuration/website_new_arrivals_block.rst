@@ -14,6 +14,9 @@ To set up the New Arrivals block per website:
 2. For the necessary website, hover over the |IcMore| **More Options** menu to the right of the necessary website and click the |IcConfig| **Configuration** icon to start editing the configuration.
 3. Select **Commerce > Product > Promotions** in the menu to the left.
 
+.. note::
+   For faster navigation between the configuration menu sections, use :ref:`Quick Search <user-guide--system-configuration--quick-search>`.
+
 The following page opens:
 
 .. image:: /user_guide/img/system/configuration/product/new_arrivals/NewArrivalsBlockWeb.png
@@ -29,10 +32,9 @@ The following page opens:
 
    .. note:: The block will be hidden if the number of items in the segment used for the block is less than the set value. For instance, if the set minimum number is 3 and the number of items in the segment is 2, you will not be able to see the block unless you add more items to the segment, or change the minimum value.
 
-   * **User Slider On Mobile Checkbox** -- When the slider is enabled, the block occupies less screen space, while showing larger product images.
+   * **Use Slider On Mobile** -- When the slider is enabled, the block occupies less screen space, while showing larger product images.
 
-
-.. note:: When the **Use System** check box is selected, the system settings are used. Clear this check box to enable manual change of settings.
+.. note:: When enabled, **Use System** allows for system settings to be used. Clear this check box to enable manual change of settings.
 
 .. finish
 

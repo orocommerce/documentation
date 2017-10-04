@@ -6,7 +6,7 @@ Getting Started with Navigation and UI
 Oro applications offer high flexibility and customization, which means that the user interface of the stores may differ. However, the integral parts that constitute the interface are cross-functional.
 
 .. contents:: :local:
-   :depth: 2
+   :depth: 3
 
 General Layout
 ^^^^^^^^^^^^^^
@@ -155,7 +155,7 @@ Tables can be viewed, saved as new ones, shared, renamed, set as default and del
 2. To save a table as a new one: click **Save as New**.
 
     * **Enter New List Name**: Define a name of the new view table.
-    * **Set as Default**: Select this checkbox to set the new table as the default one.
+    * **Set as Default**: Select this check box to set the new table as the default one.
     * **Add**: Click **Add** to add a new saved view table.
     * **Cancel**: Click **Cancel** to exit.
 
@@ -184,7 +184,7 @@ The following action buttons can be available:
 
    .. image:: /frontstore_guide/img/navigation/TableSettings.png
 
-   * You can manually select the columns by clicking on the checkbox next to the required field.
+   * You can manually select the columns by clicking on the check box next to the required field.
    * To show/hide all columns in the table, click **Select All**/**Deselect All**.
    * To clear customization, click |IcReset| **Reset**.
    * To change the order of the columns, click on the ellipsis icon |IcHandle| next to the name of the column you wish to move, hold the mouse button, and drag the column to the required position.
@@ -240,6 +240,10 @@ View tables usually contain one or more options applied to specific records with
 
 .. note:: The types of options available are subject to the type of data contained in the table and to the system configuration.
 
+.. include:: /frontstore_guide/navigation/mass_actions_front_store.rst
+   :start-after: begin
+   :end-before: finish
+
 .. _frontstore-guide--navigation-search:
 
 Search
@@ -255,6 +259,11 @@ Search is the fastest way to find a specific product:
 
 .. include:: /user_guide/include_images.rst
    :start-after: begin
+
+.. toctree::
+   :hidden:
+
+   mass_actions_front_store
 
 .. finish
 

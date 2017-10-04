@@ -6,7 +6,11 @@
 Create a Product Attribute
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-See a short demo on `how to create product attributes <https://www.orocommerce.com/media-library/create-product-attributes-families>`_, or keep reading the step-by-step guidance below.
+See a short demo on `how to create product attributes <https://www.orocommerce.com/media-library/create-product-attributes-families>`_, or keep reading the step-by-step guidance below.0
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/watch?time_continue=1&v=Ja7-3G7ljTA" frameborder="0" allowfullscreen></iframe>
 
 The creation of an attribute takes two steps:
 
@@ -91,7 +95,7 @@ Proceed to create the attribute as described below.
 
       "**Select** and **Multi-Select**","Perform the following actions:
        1. Click **+ Add** next to *Options*.
-       2. Type in the option label. Enable the checkbox next to the default option.
+       2. Type in the option label. Enable the check box next to the default option.
 
           .. image:: /user_guide/img/products/product_attributes/ProductAttributesCreate2_1_Select2.png
              :class: with-border
