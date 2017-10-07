@@ -89,6 +89,10 @@ Quote Stages and Transitions
 
    create/index
 
+   edit
+
+   delete
+
    quote_states_by_flow/index
 
    flows/index
@@ -97,3 +101,4 @@ Quote Stages and Transitions
    :start-after: begin
 
 .. TODO add quote management by sales (workflow) and quote management by customer.
+

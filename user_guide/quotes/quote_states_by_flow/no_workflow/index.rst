@@ -44,3 +44,9 @@ Learn :ref:`more ways to delete a quote <quotes--actions--delete>`.
 
 .. include:: /user_guide/include_images.rst
     :start-after: begin
+
+.. toctree::
+   :hidden:
+
+   expire
+   notify_customer
