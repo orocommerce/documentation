@@ -25,6 +25,8 @@ OroCommerce provides the following tools for streamlined communication inside an
 
    using_WYSIWYG_text_editor
 
-   ../../../service
+   import_inventory_levels
+
+   import_inventory_statuses
 
    filter

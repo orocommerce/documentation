@@ -10,29 +10,31 @@ This section of the guide will provide an introduction to OroCommerce's user int
 .. contents:: :local:
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    intro_user_profile
-    intro_company_structure_org_selector
-    intro_navigation
-    intro_filters
-    intro_nav_shortcuts
-    intro_nav_search
-    intro_nav_pinned_pages
-    intro_nav_user_menu
-    intro_nav_history_fav_viewed
-    intro_nav_sidebar
-    intro_nav_popup
-    widgets_recent_calls
-    widgets_today_calendar
-    widgets_recent_emails
-    widgets_sidebar_tasks
-    common_actions/manage_address_book
-    common_actions/manage_translation
-    access_oro/index
-    my_oro/index
-    activities/index
-    mass_actions_management_console
+   intro_user_profile
+   intro_company_structure_org_selector
+   intro_navigation
+   intro_filters
+   intro_nav_shortcuts
+   intro_nav_search
+   intro_nav_pinned_pages
+   intro_nav_user_menu
+   intro_nav_history_fav_viewed
+   intro_nav_sidebar
+   intro_nav_popup
+   widgets_recent_calls
+   widgets_today_calendar
+   widgets_recent_emails
+   widgets_sidebar_tasks
+   common_actions/manage_address_book
+   common_actions/manage_translation
+   common_actions/import_inventory_levels
+   common_actions/import_inventory_statuses
+   access_oro/index
+   my_oro/index
+   activities/index
+   mass_actions_management_console
 
 ..    records/index
 
