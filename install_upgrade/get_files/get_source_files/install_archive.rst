@@ -9,7 +9,9 @@ Method 2: Download the Source Code Archive and Install Dependencies
 
 To prepare for installation:
 
-1. Download the latest version of the application from the `download section`_ on |the_site|. Click the **zip**, **tar.gz**, or **tar.bz2** link to download the archive.
+1. Download the latest Community Edition version of the application from the `download section`_ on |the_site|. Click the **zip**, **tar.gz**, or **tar.bz2** link to download the archive.
+
+   .. warning:: Download archives of the Enterprise Edition of the application from the release section in the OroCommerce with OroCRM, OroCommerce without OroCRM, or OroCRM github repository. You need a valid Oro license to access these repositories. Please contact Oro sales or support to purchase the license and get the repository location. 
 
    .. note:: Download the **virtual machine** to quickly :ref:`deploy the application in the virtual sandbox environment <virtual_machine_deployment>`.
 
