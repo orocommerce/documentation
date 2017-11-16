@@ -7,7 +7,7 @@ Export Prices From the Price List
 
 .. start_export_price_lists
 
-.. include:: /user_guide/getting_started/common_actions/export.rst
+.. include:: /user_guide/getting_started/import_export/export.rst
    :start-after: start
    :end-before: stop
 

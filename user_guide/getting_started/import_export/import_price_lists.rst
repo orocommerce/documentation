@@ -23,6 +23,6 @@ To import a bulk of price information:
 
 1. Navigate to the **Sales > Price Lists** and click on the price list which you would like to update using the bulk import.
 
-.. include:: /user_guide/getting_started/common_actions/import.rst
+.. include:: /user_guide/getting_started/import_export/import.rst
    :start-after: after
    :end-before: Related Topics

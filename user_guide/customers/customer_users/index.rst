@@ -29,7 +29,7 @@ Later you can import the updated or processed customer information using import 
 Import
 ~~~~~~
 
-.. include:: /user_guide/getting_started/common_actions/import_customer_users.rst
+.. include:: /user_guide/getting_started/import_export/import_customer_users.rst
    :start-after: start
 
 .. finish

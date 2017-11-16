@@ -27,15 +27,11 @@ This section of the guide will provide an introduction to OroCommerce's user int
    widgets_today_calendar
    widgets_recent_emails
    widgets_sidebar_tasks
-   common_actions/manage_address_book
-   common_actions/manage_translation
-   common_actions/import_inventory_levels
-   common_actions/import_inventory_statuses
+   import_export/index
+   manage_translation
+   manage_address_book
    access_oro/index
    my_oro/index
    activities/index
    mass_actions_management_console
-
-..    records/index
-
-..     intro_log_in
+   records/index

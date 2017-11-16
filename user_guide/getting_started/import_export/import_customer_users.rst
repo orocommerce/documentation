@@ -25,6 +25,6 @@ To import a bulk of customer users information:
 
 1. Navigate to the **Customers > Customer Users**.
 
-.. include:: /user_guide/getting_started/common_actions/import.rst
+.. include:: /user_guide/getting_started/import_export/import.rst
    :start-after: after
    :end-before: Related Topics

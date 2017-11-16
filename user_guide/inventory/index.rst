@@ -67,13 +67,13 @@ Import
 Inventory Statuses and Levels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: /user_guide/getting_started/common_actions/import_inventory_levels.rst
+.. include:: /user_guide/getting_started/import_export/import_inventory_levels.rst
    :start-after: start
 
 Inventory Statuses Only
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: /user_guide/getting_started/common_actions/import_inventory_statuses.rst
+.. include:: /user_guide/getting_started/import_export/import_inventory_statuses.rst
    :start-after: start
 
 .. toctree::
