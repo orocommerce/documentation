@@ -55,6 +55,14 @@ OroCommerce groups product configuration options into the following categories:
 
   * `Enable and Set Up Previously Purchased Products per Website`_
 
+* Configurable Products:
+
+  * `Customize Configurable Products Globally`_
+
+  * `Customize Configurable Products Settings per Organization`_
+
+  * `Customize Configurable Products Settings per Website`_
+
 * Related Items:
 
   * Related Products:
@@ -227,6 +235,32 @@ Enable and Set Up Previously Purchased Products per Website
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. include:: /user_guide/products/configuration/website_previously_purchased.rst
+   :start-after: begin
+   :end-before: finish
+
+
+Configurable Products
+^^^^^^^^^^^^^^^^^^^^^
+
+Customize Configurable Products Globally
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: /configuration_guide/commerce/product/products/configurable_product/global_configurable_products.rst
+   :start-after: begin
+   :end-before: finish
+
+
+Customize Configurable Products Settings per Organization
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: /configuration_guide/commerce/product/products/configurable_product/configurable_products_organization.rst
+   :start-after: begin
+   :end-before: finish
+
+Customize Configurable Products Settings per Website
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: /configuration_guide/commerce/product/products/configurable_product/configurable_products_website.rst
    :start-after: begin
    :end-before: finish
 

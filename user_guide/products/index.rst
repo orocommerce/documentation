@@ -25,6 +25,7 @@ Ensure that you have configured:
 * New arrivals flag (:ref:`globally <sys--commerce--product--new-arrivals>`, :ref:`per organization <sys--users--organization--commerce--products--new-arrivals>`, and :ref:`per website <sys--websites--commerce--products--new-arrivals>`) --- to highlight the new products in your web catalog.
 * Featured products segment (:ref:`globally <sys--commerce--product--featured-products>`, :ref:`per organization <sys--users--organization--commerce--products--featured-products>`, and :ref:`per website <sys--websites--commerce--products--featured-products>`) -- to store the selected products that are displayed on the crowded paths of you website.
 * Previously Purchased Products (:ref:`globally <sys--commerce--orders--previously-purchased--global>` and :ref:`per website <sys--commerce--orders--previously-purchased--website>`) --- to display products that customer users have bought recently.
+* Configurable Product options (:ref:`globally <user-guide--products--configurable-products--global>`, :ref:`per organization <user-guide--products--configurable-products--organization>`, and :ref:`per website <user-guide--products--configurable-products--website>`) --- to specify how to display the matrix of product variants of the configurable product on the front store.
 
 * Related items configuration:
 
@@ -123,9 +124,6 @@ Simplify Purchase Choices and Increase Sales
    products/actions_main/index
 
    products/actions_details/index
-
-
-
 
 ..    products/index
 

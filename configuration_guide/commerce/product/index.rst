@@ -18,3 +18,4 @@ Learn the key options for setting up products in your Oro application, as well a
    
    product_images
    promotions
+   products/index
