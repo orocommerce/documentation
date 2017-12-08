@@ -3,7 +3,7 @@ Contributing to Documentation
 
 .. contents:: :local:
 
-We use `reStructuredText`_ markup language to write the documentation and `Sphinx`_ generator to prepare it for the web publication at http://www.orocommerce.com/documentation. You can find more information about the syntax on the Sphinx website by reading `reStructuredText Primer`_. The most important information is provided in the sections below.
+We use `reStructuredText`_ markup language to write the documentation and `Sphinx`_ generator to prepare it for the web publication at http://www.oroinc.com/doc/orocommerce. You can find more information about the syntax on the Sphinx website by reading `reStructuredText Primer`_. The most important information is provided in the sections below.
 
 Documentation source files are maintained in the dedicated `github repository <https://github.com/orocommerce/documentation>`_.
 
@@ -373,4 +373,4 @@ Submit Documentation Updates
 
 Once you are ready, create a pull request in the `OroCommerce documentation <https://github.com/orocommerce/documentation>`_ repository with changes from your forked repository.
 
-After documentation review, your changes will be merged to the OroCommerce documentation and will be published on the `OroCommerce website <http://www.orocommerce.com/documentation>`_
+After documentation review, your changes will be merged to the OroCommerce documentation and will be published on the `OroCommerce website <http://www.oroinc.com/doc/orocommerce>`_
