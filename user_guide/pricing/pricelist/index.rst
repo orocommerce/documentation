@@ -58,7 +58,6 @@ Set Prices in Multiple Currencies
    manual
    schedule
    import_export
-   ownership
    multicurrency
    internal
    storage_type
