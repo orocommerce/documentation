@@ -1,6 +1,6 @@
 :orphan:
 
-.. _products--products--product variants:
+.. _products--products--product-variants:
 
 Product Variants
 ================
