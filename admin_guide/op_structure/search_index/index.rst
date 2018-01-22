@@ -1,12 +1,16 @@
+.. _search_index_overview:
+
+
 Search Index
 ============
 
 .. wiki/spaces/BAP/pages/172918836/Search+Index+System+Component
 
-Responsibility
---------------
+.. Responsibility--------------
 
-Search Index component is responsible for interaction with the separate search engine and search index storage inside it. Search engine can:
+Search Index component is responsible for interaction with the separate search engine and search index storage inside it.
+
+In Oro application, search engine can:
 
 * perform search quickly (in comparison with standard ORM search)
 * apply complicated filters to results
@@ -14,19 +18,27 @@ Search Index component is responsible for interaction with the separate search e
 * extract additional data from search index
 * calculate aggregated values
 
+In this section you will learn about the following concepts related to search index:
+
+.. contents:: :local:
+   :depth: 1
+
+.. note:: For developer's documentation, see implementation specifics of the :ref:`Elasticsearch <elastic-search>` and :ref:`ORM-based <search_index_db_from_md>` search index. Keep reading for a more high-level conceptual overview.
+
 Main Concepts
 -------------
 
 `Search engine <https://en.wikipedia.org/wiki/Search_engine_(computing)>`_ is the specialized software that provides ability to store data, index data and perform quick and relevant search. The biggest difference between the search engine and a conventional data storage is the fact that search engine performs search significantly faster, and can do `overall full-text search <https://en.wikipedia.org/wiki/Full-text_search>`_ in addition to search by the specific area. Examples of search engines - `Elasticsearch <https://en.wikipedia.org/wiki/Elasticsearch>`_, `Lucene <https://en.wikipedia.org/wiki/Apache_Lucene>`_, `Solr <https://en.wikipedia.org/wiki/Apache_Solr>`_. To use an analogy to relational databases, search engine is similar to Database Management System (DBMS).
-**Search index** (sometimes referred as just index) is an actual storage where specific scope of search data is stored. One search engine may work with several indexes. Search index is structured, i.e. provides ability to organize data in the complex multilevel structures; minimal amount of levels required to work with Oro application is two. Search index can validate data type of the data stored inside. Search index is a document based storage where each document represents one specific entity from the main relational database. Search index can be considered as a specialized reflection of the main relational database. To use an analogy to relational databases, search index is similar to database (DB).
-**Entity alias** is a text representation of entity name stored inside the specific search index. Entity alias represents first level of search index structure. To use an analogy to relational databases, entity alias is similar to a table name.
-**Entity field** is a text representation of entity property name assigned to a specific entity alias. Entity alias represents second level of search index structure. Entity field has assigned data type (text, integer, decimal, datetime) and search engine uses this information to validate data stored inside the index. To use an analogy to relational databases, entity field is similar to a column name.
-**Entity field value** is an actual value of an entity property assigned to a specific entity field. To use an analogy to relational databases, entity field value is similar to a value of a column.
-**All-text field** is a special entity field used to do overall full-text search. Value of this field is usually calculated automatically based on the text entity field values.
-**Search document** is a combination of entity fields and entity field values and represents data of one specific entity from the main relational database. Search document has plain structure - i.e. field values must not contain other documents. To use an analogy to relational databases, search document is similar to a table row.
-**Indexation** is a process of updating of a data in a search index - it might be extraction of the required data from an entities and saving it to search index, or removing of required documents from search index.
-**Search mapping** is a combination of entity aliases and entity field definitions. To use an analogy to relational databases, search mapping is similar to a database schema.
-**Search placeholder** is a variable part of entity alias or entity field which can be substituted with an actual value during the indexation or performing a search request.
+
+* **Search index** (sometimes referred as just index) is an actual storage where specific scope of search data is stored. One search engine may work with several indexes. Search index is structured, i.e. provides ability to organize data in the complex multilevel structures; minimal amount of levels required to work with Oro application is two. Search index can validate data type of the data stored inside. Search index is a document based storage where each document represents one specific entity from the main relational database. Search index can be considered as a specialized reflection of the main relational database. To use an analogy to relational databases, search index is similar to database (DB).
+* **Entity alias** is a text representation of entity name stored inside the specific search index. Entity alias represents first level of search index structure. To use an analogy to relational databases, entity alias is similar to a table name.
+* **Entity field** is a text representation of entity property name assigned to a specific entity alias. Entity alias represents second level of search index structure. Entity field has assigned data type (text, integer, decimal, datetime) and search engine uses this information to validate data stored inside the index. To use an analogy to relational databases, entity field is similar to a column name.
+* **Entity field value** is an actual value of an entity property assigned to a specific entity field. To use an analogy to relational databases, entity field value is similar to a value of a column.
+* **All-text field** is a special entity field used to do overall full-text search. Value of this field is usually calculated automatically based on the text entity field values.
+* **Search document** is a combination of entity fields and entity field values and represents data of one specific entity from the main relational database. Search document has plain structure - i.e. field values must not contain other documents. To use an analogy to relational databases, search document is similar to a table row.
+* **Indexation** is a process of updating of a data in a search index - it might be extraction of the required data from an entities and saving it to search index, or removing of required documents from search index.
+* **Search mapping** is a combination of entity aliases and entity field definitions. To use an analogy to relational databases, search mapping is similar to a database schema.
+* **Search placeholder** is a variable part of entity alias or entity field which can be substituted with an actual value during the indexation or performing a search request.
 
 Following diagram shows described structure:
 
@@ -41,8 +53,9 @@ Common Interfaces
 ^^^^^^^^^^^^^^^^^
 
 Common interfaces are used at all index types to provide high level abstraction for a functionality that has to work with any type of search index (e.g. datagrids).
-**Search engine interface** Oro\Bundle\SearchBundle\Engine\EngineInterface is used to perform search requests to a search index.
-**Search indexer interface** Oro\Bundle\SearchBundle\Engine\IndexerInterface is used for indexation, i.e. to change state of a search index (save data, remove data, reset index).
+
+* **Search engine interface** Oro\Bundle\SearchBundle\Engine\EngineInterface is used to perform search requests to a search index.
+* **Search indexer interface** Oro\Bundle\SearchBundle\Engine\IndexerInterface is used for indexation, i.e. to change state of a search index (save data, remove data, reset index).
 
 Standard Index Type
 ^^^^^^^^^^^^^^^^^^^
@@ -94,7 +107,7 @@ Supported Search Engines
 ORM Search Engine
 ^^^^^^^^^^^^^^^^^
 
-ORM search engine doesn't use actual document-based storage - instead it emulates such storage inside application relational database using EAV model. As a consequence, performance of ORM engine is not very good and because of that it is recommended only for small applications - with a couple thousands of entities.
+:ref:`ORM search engine <orm_search_engine>` doesn't use actual document-based storage - instead it emulates such storage inside application relational database using EAV model. As a consequence, performance of ORM engine is not very good and because of that it is recommended only for small applications - with a couple thousands of entities.
 ORM search engine uses separate Entity Manager and connection called "search" - this way search requests can be processes independently from default DB connection.
 ORM search engine for standard index type is implemented at the OroSearchBundle at platform package, for website index type - at the OroWebsiteSearchBundle at commerce package.
 
@@ -103,12 +116,12 @@ See detailed information about the implementation of ORM search engine in the :r
 Elasticsearch Search Engine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Elasticsearch search engine allows to store big amount of data and perform fast search queries. Performance of Elasticsearch engine is quite good and it's recommended for bigger applications - with hundereds of thousands and millions of entities.
-Elasitcsearch search engine requires credentials to connect to actual index. Credentials include optional WWW-auth parameters and SSH connection support.
+:ref:`Elasticsearch search engine <elastic-search>` allows to store big amount of data and perform fast search queries. Performance of Elasticsearch engine is quite good and it's recommended for bigger applications - with hundereds of thousands and millions of entities.
+Elasticsearch search engine requires credentials to connect to actual index. Credentials include optional WWW-auth parameters and SSH connection support.
 Elasticsearch search engine for standard index type is implemented at the OroElasticSearchBundle at platform-enterprise package, for website index type - at the OroWebsiteElasticSearchBundle at commerce-enterprise package.
 Current implementation supports only Elasticsearch 2.* versions.
 
-See detailed information about the implementation of ElasticSearch engine in Oro :ref:`here <elastic-search>`.
+See detailed information about the :ref:`implementation of ElasticSearch engine in Oro applications <elastic-search>`.
 
 Data Structure
 --------------
@@ -298,13 +311,13 @@ How to Trigger Reindexation
 
 Both standard and website index types automatically trigger reindexation process when entity data or related configuration is changed.
 
-Standard search index type provides CLI command oro:search:reindex that can be used to manually tirgger full reindexation of all entities, or only entities of a specific class. It has flag called scheduled to run indexation asynchronously. Here are `examples of a work with this command <https://github.com/oroinc/platform/blob/master/src/Oro/Bundle/SearchBundle/Resources/doc/console_commands.md>`_.
+Standard search index type provides CLI command oro:search:reindex that can be used to manually trigger full reindexation of all entities, or only entities of a specific class. It has flag called scheduled to run indexation asynchronously. Here are `examples of a work with this command <https://github.com/oroinc/platform/blob/master/src/Oro/Bundle/SearchBundle/Resources/doc/console_commands.md>`_.
 
 Website search index type provides similar CLI command called oro:website-search:reindex which used to manually tirgger full reindexation of all entities, only entities of a specific class or entitie for a specific website. It also has flag called scheduled to run indexation  asynchronously. Here are `examples of a work with oro:website-search:reindex command <https://github.com/oroinc/orocommerce/blob/master/src/Oro/Bundle/WebsiteSearchBundle/Resources/doc/console_commands.md>`_.
 
 Website search index type provides an event called oro_website_search.reindexation_request to manually trigger reindexation process for the specified scope of entities. It uses event class Oro\Bundle\WebsiteSearchBundle\Event\ReindexationRequestEvent which accepts boolean parameter $scheduled to specify whether indexation has to be asynchronous (default behaviour) or synchronous. Here are `examples of a triggering of this event <https://github.com/oroinc/orocommerce/blob/master/src/Oro/Bundle/WebsiteSearchBundle/Resources/doc/indexation.md>`_.
 
-Both standard and website search index types have synchronous and asynchronous indexers which trigget corresponding type of indexation. All following indexers implement the same standard indexer interface Oro\Bundle\SearchBundle\Engine\IndexerInterface:
+Both standard and website search index types have synchronous and asynchronous indexers which trigger corresponding type of indexation. All following indexers implement the same standard indexer interface Oro\Bundle\SearchBundle\Engine\IndexerInterface:
 
 * standard asynchronous indexer - Oro\Bundle\SearchBundle\Async\Indexer, service ID is oro_search.async.indexer
 * standard synchronous ORM indexer - Oro\Bundle\SearchBundle\Engine\OrmIndexer, service ID is oro_search.search.engine.indexer
@@ -392,14 +405,14 @@ Simple and Advanced Search API
 
 Standard search index provides API resources that can be used to work with this search index.
 
-Simple search API accepts:
+:ref:`Simple search API <simple_search>` accepts:
 
 * search request - plain string used to perform search at all-text field;
 * entity alias (optional);
-* offset (optional) - used for paginattion;
+* offset (optional) - used for pagination;
 * max results (optional) - used for pagination.
 
-Advanced search API accepts string representation of search request.
+:ref:`Advanced search API <advanced-search-api>` accepts string representation of search request.
 
 In both cases API returns list of found entities.
 
@@ -616,12 +629,15 @@ References
 * `Elasticsearch references <https://www.elastic.co/guide/en/elasticsearch/reference/2.4/index.html>`_
 * `Scaling Elasticsearch <https://medium.com/hipages-engineering/scaling-elasticsearch-b63fa400ee9e>`_
 * `Web Performance Tuning: Latency and Throughput <https://www.safaribooksonline.com/library/view/web-performance-tuning/059600172X/ch04s02.html>`_
-* `Standard search index type <https://github.com/laboro/dev/blob/master/package/platform/src/Oro/Bundle/SearchBundle/README.md>`_
-* `Elasticsearch support for standard index type <https://github.com/laboro/dev/blob/master/package/platform-enterprise/src/Oro/Bundle/ElasticSearchBundle/README.md>`_
-* `Website search index type <https://github.com/laboro/dev/blob/master/package/commerce/src/Oro/Bundle/WebsiteSearchBundle/README.md>`_
-* `Elasticsearch support for website index type <https://github.com/laboro/dev/blob/master/package/commerce-enterprise/src/Oro/Bundle/WebsiteElasticSearchBundle/README.md>`_
+* :ref:`Standard search index type <search_index_db_from_md>`
+* :ref:`Elasticsearch support for standard index type <elastic-search>`
+* `Website search index type <https://github.com/oroinc/orocommerce/blob/master/src/Oro/Bundle/WebsiteSearchBundle/README.md>`_
+
+.. Elasticsearch support for website index type <https://github.com/laboro/dev/blob/master/package/commerce-enterprise/src/Oro/Bundle/WebsiteElasticSearchBundle/README.md>`_
 
 .. toctree::
+   :maxdepth: 1
+   :hidden:
 
    elastic_search
    db_search/index
