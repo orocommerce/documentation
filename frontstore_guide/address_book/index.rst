@@ -3,7 +3,7 @@
 Address Book
 ============
 
-The following information covers the Address Book section of the Account menu in OroCommerce front store.
+The following information covers the Address Book section of the Account menu in OroCommerce storefront.
 
 .. _frontstore-guide--address-overview:
 

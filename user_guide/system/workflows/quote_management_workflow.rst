@@ -49,7 +49,7 @@ When the QBW is active, the following statuses are available:
 
 .. image:: /user_guide/img/system/workflows/workflows/InternalStatusesGrid.png  
 
-2. Customer Statuses are the statuses displayed to customers in the front store:
+2. Customer Statuses are the statuses displayed to customers in the storefront:
 
    a) Open
    b) Expired

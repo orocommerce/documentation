@@ -3,7 +3,7 @@ Overview
 
 .. begin
 
-In Customer User Roles section, you can view, edit and create new customer roles to define the level of permissions and access to the actions and data in OroCommerce store frontend for the users of this role.
+In Customer User Roles section, you can view, edit and create new customer roles to define the level of permissions and access to the actions and data in OroCommerce storefront for the users of this role.
 
 The following roles are predefined and available for every customer by default:
 

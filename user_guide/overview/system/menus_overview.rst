@@ -54,7 +54,7 @@ A **calendar_menu** is a service menu that is used on the **My Calendar** page a
 
 .. image:: /user_guide/img/system/menus/menus_calendar_menu.png
 
-OroCommerce Front Store Menus
+OroCommerce Storefront Menus
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. contents:: :local:
@@ -77,7 +77,7 @@ A **commerce_quick_access** menu provides quick access to the most frequent or i
 Navigation Bar
 """"""""""""""
 
-A **commerce_main_menu** defines the static content of the OroCommerce Front Store main menu. The leading part of the menu is generated based on the structure of the website web catalog or master catalog. The trailing part is composed of the **commerce_main_menu** items.
+A **commerce_main_menu** defines the static content of the OroCommerce Storefront main menu. The leading part of the menu is generated based on the structure of the website web catalog or master catalog. The trailing part is composed of the **commerce_main_menu** items.
 
 .. image:: /user_guide/img/system/frontend_menu/FrontendMainMenu.png
 

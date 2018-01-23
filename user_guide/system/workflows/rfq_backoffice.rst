@@ -43,9 +43,9 @@ RFQ Backoffice and :ref:`Frontoffice <system--workflows--rfq-frontoffice-workflo
 	e) Cancelled 
 	f) Deleted
 
-.. note:: RFQs with internal status Deleted are not visible in the front store.
+.. note:: RFQs with internal status Deleted are not visible in the storefront.
 
-2. :ref:`Customer Statuses <system--workflows--rfq-frontoffice-workflow>` (Marked RFQ Frontoffice on the RFQ page) are the statuses displayed to customers in the front store. In the management console, they are visible on the view page and in the grid:
+2. :ref:`Customer Statuses <system--workflows--rfq-frontoffice-workflow>` (Marked RFQ Frontoffice on the RFQ page) are the statuses displayed to customers in the storefront. In the management console, they are visible on the view page and in the grid:
 
 	a) Submitted
 	b) Pending Approval

@@ -15,9 +15,9 @@ Global pricing configuration helps you:
 
 * Specify an offset in hours that helps launch combined price list recalculation before price change is activated.
 
-* Enable all or some currencies from the allowed currencies list to be used in OroCommerce front store and management console.
+* Enable all or some currencies from the allowed currencies list to be used in OroCommerce storefront and management console.
 
-* Select the currency that is shown by default in the OroCommerce front store and management console.
+* Select the currency that is shown by default in the OroCommerce storefront and management console.
 
 .. note:: The website level configuration has higher priority and overrides these configuration settings. Customer group configuration overrides configuration on the website level. Custom configuration on the customer level has the highest priority.
 
@@ -57,7 +57,7 @@ To change the default global pricing settings:
 
      .. note:: Price lists with higher priority are on top.
 
-   * **Offset Of Processing CPL Prices** --- A time frame (in hours) before the scheduled price change when the price list recalculation and reindex should happen to prepare the future actual prices in the OroCommerce front store.
+   * **Offset Of Processing CPL Prices** --- A time frame (in hours) before the scheduled price change when the price list recalculation and reindex should happen to prepare the future actual prices in the OroCommerce storefront.
 
    .. that should be sustained between the price recalculation for the prices with the resource consuming conditions (e.g. when the price auto-calculation formula depends on the attribute of the item that is not directly related to the product). The complex price recalculation is deferred and happens on schedule, in bulk, for all prices that are awaiting to be updated since the previous run.
 
@@ -79,7 +79,7 @@ To change the default global pricing settings:
 
      .. image:: /user_guide/img/system/configuration/catalog/pricing/currency_on_the_front_store.png
 
-   * **Default Currency** --- The currency that is used by default to show prices in the front store.
+   * **Default Currency** --- The currency that is used by default to show prices in the storefront.
 
      .. note:: The website level configuration has higher priority and overrides the global configuration settings.
 

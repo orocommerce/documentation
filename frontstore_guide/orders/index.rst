@@ -5,7 +5,7 @@ Orders
 
 After you submit an order, it is available in the Order History, where you can review the ordered items, billing and shipping information.
 
-The following guide focuses on the Order History section of the OroCommerce front store.
+The following guide focuses on the Order History section of the OroCommerce storefront.
 
 .. contents:: :local:
    :depth: 3

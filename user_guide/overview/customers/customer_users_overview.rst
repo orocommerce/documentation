@@ -10,7 +10,7 @@ For customer user management, navigate to **Customers > Customer Users** in the 
 In Customer Users section, you can:
 
 * View, edit and create new customer users
-* Select their roles in OroCommerce to define their level of permissions and access to the actions and data in OroCommerce store frontend
+* Select their roles in OroCommerce to define their level of permissions and access to the actions and data in OroCommerce storefront
 * Manage customer user information:
 
     - Name
@@ -26,7 +26,7 @@ In Customer Users section, you can:
 * Enable and disable the customer
 * Reset the customer user password
 
-.. note:: You can delegate this function to the customer who will access user and role management in the OroCommmerce front store (see `Delegating Users and Role Management to the Customer section <./../user-guide/customers/delegate>`_ for more information).
+.. note:: You can delegate this function to the customer who will access user and role management in the OroCommmerce storefront (see `Delegating Users and Role Management to the Customer section <./../user-guide/customers/delegate>`_ for more information).
 
 **Customer Account Confirmation**
 

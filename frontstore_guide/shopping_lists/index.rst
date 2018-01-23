@@ -3,7 +3,7 @@
 Shopping Lists 
 ==============
 
-The following guide will describe how shopping lists can be used in OroCommerce front store.
+The following guide will describe how shopping lists can be used in OroCommerce storefront.
 
 .. contents:: :local:
    :depth: 2
@@ -12,7 +12,7 @@ In OroCommerce, shopping lists are much more than merely a list of items in a ca
 
 .. _frontstore-guide--shopping-lists-create:
 
-In the front store, shopping lists are located in the top right corner and can be easily spotted.
+In the storefront, shopping lists are located in the top right corner and can be easily spotted.
 
 .. image:: /frontstore_guide/img/shopping_lists/ShoppingLists.png
 

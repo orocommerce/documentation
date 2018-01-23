@@ -1,4 +1,4 @@
-Shipping in the Checkout (Front Store)
+Shipping in the Checkout (Storefront)
 --------------------------------------
 
 .. begin

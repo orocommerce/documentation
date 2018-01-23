@@ -6,7 +6,7 @@ RFQ Frontoffice Workflow
 Overview
 --------
 
-RFQ (Request For Quote) Frontoffice Workflow is a :ref:`system workflow <user-guide--system--workflow-management-system-custom>` that defines the sequence of :ref:`steps and transitions <user-guide--system--workflow-management-steps-transitions>` that an RFQ can go through in the front store and the management console.
+RFQ (Request For Quote) Frontoffice Workflow is a :ref:`system workflow <user-guide--system--workflow-management-system-custom>` that defines the sequence of :ref:`steps and transitions <user-guide--system--workflow-management-steps-transitions>` that an RFQ can go through in the storefront and the management console.
 
 To reach the workflow:
 
@@ -45,9 +45,9 @@ RFQ Statuses
 
 .. image:: /user_guide/img/system/workflows/rfq/frontoffice/RFQsStepsView2.png
 
-.. note:: RFQs with internal status Deleted are not visible in the front store.
+.. note:: RFQs with internal status Deleted are not visible in the storefront.
 
-2. Customer Statuses (Marked RFQ Frontoffice on the RFQ page) are the statuses displayed to customers in the front store. In the management console, they are visible on the view page and in the grid:
+2. Customer Statuses (Marked RFQ Frontoffice on the RFQ page) are the statuses displayed to customers in the storefront. In the management console, they are visible on the view page and in the grid:
 
 	a) Submitted
 	b) Pending Approval
@@ -95,7 +95,7 @@ The RFQ Frontoffice consists of the following steps and transitions:
 
 As an illustration, let us go through a sample flow to see RFQ Frontoffice in action:
 
-1. A customer user creates an RFQ in the front store. Once the RFQ is sent, its customer status is marked as Submitted.
+1. A customer user creates an RFQ in the storefront. Once the RFQ is sent, its customer status is marked as Submitted.
    
    .. image:: /user_guide/img/system/workflows/rfq/frontoffice/RFQButton.png
 
@@ -105,7 +105,7 @@ As an illustration, let us go through a sample flow to see RFQ Frontoffice in ac
 
    .. image:: /user_guide/img/system/workflows/rfq/frontoffice/RFQInformationRequested.png
    
-3. The customer user receives the request in the front store, clicks Provide Information in the right corner of the page and replies to the message. The customer status is now Submitted.
+3. The customer user receives the request in the storefront, clicks Provide Information in the right corner of the page and replies to the message. The customer status is now Submitted.
    
    .. image:: /user_guide/img/system/workflows/rfq/frontoffice/RFQProvideInfo.png
    .. image:: /user_guide/img/system/workflows/rfq/frontoffice/RFQInformationProvided.png

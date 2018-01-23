@@ -1,10 +1,10 @@
 .. _frontstore-guide:
 
-Front Store Guide 
-=================
+Storefront Guide
+================
 
 
-The following guide is intended as an introduction to the OroCommerce default front store. It illustrates how to navigate, browse and interact with the store.
+The following guide is intended as an introduction to the OroCommerce default storefront. It illustrates how to navigate, browse and interact with the store.
 
 For a quick orientation, see how to :ref:`Register and Sign in <frontstore-guide--getting-started>` and check out the :ref:`Navigation Basics <frontstore-guide--navigation>`.
 
@@ -90,7 +90,7 @@ In the :ref:`Manage Users in Your Organization and Control Their Access Level <f
 
 ..  Can I change the password on behalf of the other user?
 
-**Sample Front Store**
+**Sample Storefront**
 
 .. image:: /frontstore_guide/img/FrontPage1.png
 .. image:: /frontstore_guide/img/FrontPage2.png

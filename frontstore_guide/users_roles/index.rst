@@ -3,7 +3,7 @@
 My Organization Users and Roles 
 ===============================
 
-This section of the guide will provide information on how you can manage your organization users and roles, so they have the necessary level of access to the OroCommerce front store capabilities.
+This section of the guide will provide information on how you can manage your organization users and roles, so they have the necessary level of access to the OroCommerce storefront capabilities.
 
 .. contents:: :local:
    :depth: 2
@@ -80,7 +80,7 @@ A form will emerge with the following data to provide:
 Roles
 ^^^^^
 
-Roles are predefined sets of permissions. In the Roles section, you can view, edit and create new roles to define the level of permissions and access to the actions and data in OroCommerce front store for the users of a specific role.
+Roles are predefined sets of permissions. In the Roles section, you can view, edit and create new roles to define the level of permissions and access to the actions and data in OroCommerce storefront for the users of a specific role.
 
 To locate roles:
 
