@@ -45,9 +45,7 @@ Search Index
 
 Application data is indexed based on the application configuration and is stored in the search index. Community Edition supports only DB fulltext search index. The Enterprise Edition supports the highly scalable Elastic Search.
 
-See more information about the :ref:`DB fulltext search <search_index_db_from_md>`. See also :ref:`Dealing with the Search Index <search_index_db>`.
-
-See more information about the :ref:`Elastic Search <elastic-search>`.
+For more information, see :ref:`Search Index <search_index_overview>` overview.
 
 DB
 ^^
@@ -83,7 +81,6 @@ Application files related to the user data (attachments, images, documents) are 
 .. toctree::
    :hidden:
 
-   elastic_search
-   db_search/index
+   search_index/index
    cache
    mq/index
