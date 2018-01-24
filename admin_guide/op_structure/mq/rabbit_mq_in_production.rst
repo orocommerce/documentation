@@ -118,7 +118,7 @@ For example, name it `oro-message-queue@.service` and put it into `/lib/systemd/
       exec app/console --env=prod --no-debug oro:message-queue:transport:consume oro.$QUEUE oro_message_queue.client.delegate_message_processor --time-limit="now + 15minutes" -vv'
    Restart=always
    RestartSec=3s
-   
+
    [Install]
    WantedBy=multi-user.target
 

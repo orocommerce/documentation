@@ -82,5 +82,6 @@ Application files related to the user data (attachments, images, documents) are 
    :hidden:
 
    search_index/index
+   database/index
    cache
    mq/index
