@@ -1,23 +1,25 @@
 .. _user-guide--getting-started--address-book:
 
-Managing Address Book
-~~~~~~~~~~~~~~~~~~~~~
+Manage Address Book
+-------------------
 
-For customer and customer users, Address Book allows to enter and view account address details.
+.. begin
+
+For customer and customer users in OroCommerce, the address book allows to enter and view account address details.
 
 .. contents:: :local:
 
-Creating an Address
-"""""""""""""""""""
+Create an Address
+~~~~~~~~~~~~~~~~~
 
-To add an address to the Address Book:
+To add an address to the address book:
 
-1. Click :guilabel:`+Add Address` in the right corner of the Account page.
+1. Click **Add Address** in the right corner of the selected page. 
 
    .. image:: /user_guide/img/customers/customers/acc_add_address.png
       :class: with-border
 
-   A popup form will appear with the following fields to fill in:
+   A popup form appears with the following fields to fill in:
 
 	.. csv-table::
 	  :header: "Field", "Description"
@@ -50,36 +52,35 @@ To add an address to the Address Book:
 
 	Street, City and Zip are mandatory fields.
 
-2. Once you have filled in all the fields, click :guilabel:`Save`. 
+2. Click **Save** once you have filled in all the fields. 
 
-   The address and the map showing the address location will be displayed on the right of the address.
+   The address and the map showing the address location is displayed on the right of the address.
 
    .. image:: /user_guide/img/customers/customers/acc_address_saved.png
       :class: with-border
 
-Viewing an Address on the Map
-"""""""""""""""""""""""""""""
+View an Address on the Map
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is possible to add more addresses to the same account. If you have more than one address on the Address Book page, clicking on one or the other will prompt a map to appear that corresponds to the selected address.
 
 .. image:: /user_guide/img/customers/customers/acc_address_correspondin_map.png
    :class: with-border
 
-Marking Address as a Primary Address
-""""""""""""""""""""""""""""""""""""
+Manage an Address
+~~~~~~~~~~~~~~~~~
+
+* **Mark address as primary**
 
 To mark address as primary, click the |IcEdit| on the right top of the address background, check the **Primary** box and click **Save**. The primary label will move to the updated address.
 
-.. note:: Delete is disabled for the primary address. To delete the address makred as primary, you need to move the primary label to a different address first.
+.. note:: Delete is disabled for the primary address. To delete the address marked as primary, you need to move the primary label to a different address first.
 
-
-Editing an Address
-""""""""""""""""""
+* **Edit an address**
 
 To edit an address, click the |IcEdit| on the right top of the address background, update the address details and click **Save**. 
 
-Deleting an Address
-"""""""""""""""""""
+* **Delete an address**
 
 Delete an address by clicking the |IcDelete| next to it.
 
