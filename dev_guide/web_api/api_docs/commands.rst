@@ -29,7 +29,7 @@ Also you can use ``--no-warmup`` option if you need to clear the cache, but do n
 
     php app/console oro:api:doc:cache:clear --no-warmup
 
-To work only with the specified `API documentation views <https://github.com/nelmio/NelmioApiDocBundle/blob/master/Resources/doc/multiple-api-doc.rst>`__ use ``--view`` option:
+To work only with the specified `API documentation views <https://github.com/nelmio/NelmioApiDocBundle/blob/master/Resources/doc/multiple-api-doc.md>`__ use ``--view`` option:
 
 .. code:: bash
 
