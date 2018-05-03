@@ -29,7 +29,7 @@ Via Installation Wizard
 
    .. image:: /install_upgrade/img/installation/wizard-2.png
 
-   The values defined in the :ref:`configuration parameters <book-installation-github-clone-configuration-params>` will be filled in automatically, but they can be changed.
+   The default values will be filled in automatically, but they can be changed.
 
 4. For the *Configuration*, provide the following information:
 
