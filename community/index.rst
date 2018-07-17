@@ -17,4 +17,4 @@ Join Oro community and contribute to the open-source OroCommerce Community Editi
 
    question
 
-   release
+   release_process
