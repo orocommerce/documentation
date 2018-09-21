@@ -15,7 +15,7 @@ To retrieve a new version and upgrade your OroCRM instance, please execute the f
     :linenos:
 
     $ cd /path/to/application
-    $ sudo -uwww-data app/console lexik:maintenance:lock --env prod
+    $ sudo -uwww-data app/console lexik:maintenance:lock --env=prod
 
 **2**. Stop the cron tasks.
 
@@ -83,7 +83,7 @@ Comment this line.
 .. code-block:: bash
     :linenos:
 
-    $ sudo -u www-data app/console cache:clear --env prod
+    $ sudo -u www-data app/console cache:clear --env=prod
 
 or, as alternative:
 
@@ -91,14 +91,14 @@ or, as alternative:
     :linenos:
 
     $ sudo rm -rf app/cache/*
-    $ sudo -u www-data app/console cache:warmup --env prod
+    $ sudo -u www-data app/console cache:warmup --env=prod
 
 **10**. Run the consumer(s).
 
 .. code-block:: bash
     :linenos:
 
-    $ sudo -u www-data app/console oro:message-queue:consume --env prod
+    $ sudo -u www-data app/console oro:message-queue:consume --env=prod
 
 **11**. Enable cron.
 
@@ -119,7 +119,7 @@ Uncomment this line.
 .. code-block:: bash
     :linenos:
 
-    $ sudo -uwww-data app/console lexik:maintenance:unlock --env prod
+    $ sudo -uwww-data app/console lexik:maintenance:unlock --env=prod
 
 .. note::
 
@@ -138,7 +138,7 @@ To retrieve a new version and upgrade your OroCRM instance, please execute the f
     :linenos:
 
     $ cd /path/to/application
-    $ sudo -uwww-data app/console lexik:maintenance:lock --env prod
+    $ sudo -uwww-data app/console lexik:maintenance:lock --env=prod
 
 **2** Stop the cron tasks.
 
@@ -199,7 +199,7 @@ Comment this line.
 .. code-block:: bash
     :linenos:
 
-    $ sudo -u www-data app/console cache:clear --env prod
+    $ sudo -u www-data app/console cache:clear --env=prod
 
 or, as alternative:
 
@@ -207,7 +207,7 @@ or, as alternative:
     :linenos:
 
     $ sudo rm -rf app/cache/*
-    $ sudo -u www-data app/console cache:warmup --env prod
+    $ sudo -u www-data app/console cache:warmup --env=prod
 
 
 **9**. Run the consumer(s).
@@ -215,7 +215,7 @@ or, as alternative:
 .. code-block:: bash
     :linenos:
 
-    $ sudo -u www-data app/console oro:message-queue:consume --env prod
+    $ sudo -u www-data app/console oro:message-queue:consume --env=prod
 
 **10**. Enable cron.
 
@@ -236,7 +236,7 @@ Uncomment this line.
 .. code-block:: bash
     :linenos:
 
-    $ sudo -uwww-data app/console lexik:maintenance:unlock --env prod
+    $ sudo -uwww-data app/console lexik:maintenance:unlock --env=prod
 
 .. note::
 
