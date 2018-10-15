@@ -52,13 +52,13 @@ To prepare files for the website located in the sub-directory (e.g /uk), do the 
 
    .. code-block:: php
 
-      require_once __DIR__.'/../app/AppKernel.php';
+      require_once __DIR__.'/../src/AppKernel.php';
    
    should be changed to
 
    .. code-block:: php
 
-      require_once __DIR__.'/../../app/AppKernel.php';
+      require_once __DIR__.'/../../src/AppKernel.php';
 
 2. Add WEBSITE_PATH parameter to ServerBag before $response = $kernel->handle($request); This parameter value should be the new website folder name.
 
