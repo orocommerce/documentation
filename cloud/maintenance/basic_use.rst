@@ -173,3 +173,12 @@ Once you have identified the backup file you need, download it using:
 
 See :ref:`Sanitizing Configuration <orocloud-maintenance-advanced-use-sanitization-conf>` for details on how to configure the sanitizing scope and strategy.
 
+Application Commands
+--------------------
+
+Run application commands via the `app:console`, for example:
+
+.. code-block:: none
+    :linenos:
+
+    orocloud-cli app:console oro:user:list

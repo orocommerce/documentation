@@ -9,7 +9,7 @@ How to Apply Patches
 Apply Patches During Deployment
 -------------------------------
 
-To unify the process of applying patches to a deployed application, the maintenance agent is configured to do it once the code is deployed and the composer install is completed.
+To unify the process of applying patches during application deployment, the maintenance agent is configured to do it once the code is deployed and the composer install is completed.
 
 .. code-block:: none
     :linenos:
@@ -32,7 +32,7 @@ Note: Use the following command to make sure that the patch is correct and can b
 Apply Patches to a Deployed Application
 ---------------------------------------
 
-In order to unify the process of applying patches to a deployed application, the maintenance agent has the functionality for applying/reverting patches.
+In order to unify the process of applying patches during application deployment, the maintenance agent has the functionality for applying/reverting patches.
 
 Use the following commands to work with patches (supports only patches created in ``PhpStorm``):
 
