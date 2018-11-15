@@ -1,7 +1,7 @@
 .. _installation--parameters-yml-description:
 
 Infrastructure-related Oro Application Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================
 
 Infrastructure-related configuration parameters are stored in the *config/parameters.yml* file and grouped in the following way:
 
