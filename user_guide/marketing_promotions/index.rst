@@ -12,6 +12,15 @@ The following topics will delve into how to view, create and manage promotions i
 .. contents:: :local:
    :depth: 1
 
+* :ref:`Configure Promotions <sys-config--commerce--sales--promotions>`
+* :ref:`Create Promotions <user-guide--marketing--promotions--create>`
+* :ref:`Add Conditions to a Promotion <user-guide--marketing--promotions--conditions>`
+* :ref:`View Promotions <user-guide--marketing--promotions--viewlist>`
+* :ref:`Manage Discounts in Orders <user-guide--sales--orders--promotions>`
+* :ref:`Review the FQAs <user-guide--marketing--promotions--issues>`
+* :ref:`Review Order Total Calculation with Promotions (Example) <user-guide--marketing--promotions--price-calculation>` 
+
+
 Configure Promotions
 --------------------
 
@@ -57,4 +66,9 @@ Related Topics
    promotions_in_order/index
 
    expressions
+
+   price_calculation_sample
+   
+   faqs  
+
 
