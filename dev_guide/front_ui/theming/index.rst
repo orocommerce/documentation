@@ -6,7 +6,9 @@ Theming
 A **layout theme** is a collection of files that declares a visual
 presentation for a group of pages. You can think of a **theme** as the skin for your application.
 
-Files that the theme consists of, are :ref:`layout updates <dev-guide-layouts-layout-updates>`, 
+.. note:: Please, refer to the :ref:`OroCommerce Design: Theme <configuration--commerce--design--theme>` Admin Guide section for description on how to switch the storefront theme from the management console UI.
+
+Files that the theme consists of, are :ref:`layout updates <dev-guide-layouts-layout-updates>`,
 **styles**, **scripts** and anything else related to the look and feel of the page.
 
 The application comes with three `Out-of-the-box OroCommerce Themes`_ . 
@@ -29,7 +31,7 @@ A **theme folder**
 * must match the **[a-zA-Z][a-zA-Z0-9_-:]\*** pattern
 * must be placed in the **Resources/views/layouts** folder of the bundle
 
-An example of a theme folder is `DemoBundle/Resources/views/layouts/first_theme/`. 
+An example of a theme folder is `DemoBundle/Resources/views/layouts/first_theme/`.
 
 The theme folder name becomes the theme ID.
 
