@@ -59,16 +59,16 @@ Settings in Oro application can be managed on multiple configuration levels. Thr
    <div class="guideline">
       <div class="guideline__item" >
           <div style="text-align: center">
-            <a href="current/config-levels">
+            <a class="reference internal" href="config-levels">
                 <h3><i class="guideline__icon fa fa-cogs fa-lg"></i><br>Configuration <br>Levels</h3>
             </a>
           </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%;height:100%;text-align: left">
                <ul class="guideline__list">
-                   <li><a href="current/config-levels/global#doc-system-configuration">Global Configuration</a></li>
-                   <li><a href="current/config-levels/website#doc-website-configuration">Website Configuration</a></li>
-                   <li><a href="current/config-levels/org#doc-organization-configuration">Organization Configuration</a></li>
-                   <li><a href="current/config-levels/user#doc-my-user-configuration">User Configuration</a></li>
+                   <li><a class="reference internal" href="config-levels/global#doc-system-configuration">Global Configuration</a></li>
+                   <li><a class="reference internal" href="config-levels/website#doc-website-configuration">Website Configuration</a></li>
+                   <li><a class="reference internal" href="config-levels/org#doc-organization-configuration">Organization Configuration</a></li>
+                   <li><a class="reference internal" href="config-levels/user#doc-my-user-configuration">User Configuration</a></li>
                 </ul>
           </div>
       </div>
@@ -79,9 +79,9 @@ Settings in Oro application can be managed on multiple configuration levels. Thr
           </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%;height:100%;text-align: left">
                <ul class="guideline__list">
-                   <li><a href="current/landing-commerce#configuration-guide-commerce-configuration">Commerce Configuration</a></li>
-                   <li><a href="current/landing-crm#configuration-guide-crm-configuration">CRM Configuration</a></li>
-                   <li><a href="current/landing-marketing#configuration-guide-marketing-configuration">Marketing Configuration</a></li>
+                   <li><a class="reference internal" href="landing-commerce#configuration-guide-commerce-configuration">Commerce Configuration</a></li>
+                   <li><a class="reference internal" href="landing-crm#configuration-guide-crm-configuration">CRM Configuration</a></li>
+                   <li><a class="reference internal" href="landing-marketing#configuration-guide-marketing-configuration">Marketing Configuration</a></li>
                 </ul>
           </div>
       </div>
@@ -102,9 +102,9 @@ This section provides a reference for the settings accessible via the **System**
           </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%;height:100%;text-align: left">
                <ul class="guideline__list">
-                   <li><a href="current/payment">Payment Configuration</a></li>
-                   <li><a href="current/pricing">Price Calculation Optimization</a></li>
-                   <li><a href="current/shipping">Shipping Configuration</a></li>
+                   <li><a class="reference internal" href="payment">Payment Configuration</a></li>
+                   <li><a class="reference internal" href="pricing">Price Calculation Optimization</a></li>
+                   <li><a class="reference internal" href="shipping">Shipping Configuration</a></li>
                 </ul>
           </div>
       </div>
@@ -115,9 +115,9 @@ This section provides a reference for the settings accessible via the **System**
           </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%;height:100%;text-align: left">
                <ul class="guideline__list">
-                   <li><a href="current/websites">Website Management</a></li>
-                   <li><a href="current/localization">Localization and Translations</a></li>
-                   <li><a href="current/menu">Menus Configuration</a></li>
+                   <li><a class="reference internal" href="websites">Website Management</a></li>
+                   <li><a class="reference internal" href="localization">Localization and Translations</a></li>
+                   <li><a class="reference internal" href="menu">Menus Configuration</a></li>
                 </ul>
           </div>
       </div>
@@ -128,10 +128,10 @@ This section provides a reference for the settings accessible via the **System**
           </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%;height:100%;text-align: left">
                <ul class="guideline__list">
-                   <li><a href="current/integrations">Integrations</a></li>
-                   <li><a href="current/workflows">Workflows</a></li>
-                   <li><a href="current/entities">Entity Management</a></li>
-                   <li><a href="current/email">Email Configuration</a></li>
+                   <li><a class="reference internal" href="integrations">Integrations</a></li>
+                   <li><a class="reference internal" href="workflows">Workflows</a></li>
+                   <li><a class="reference internal" href="entities">Entity Management</a></li>
+                   <li><a class="reference internal" href="email">Email Configuration</a></li>
                 </ul>
           </div>
       </div>
