@@ -106,8 +106,12 @@ Reset your password and add an SSH key using Oro Identity Portal
    The message contains the following text:
 
    *Someone has just requested to change the credentials for your OroCloud account. If this was you, please click on the link below to reset them.*
+
+
    *<LINK>*
+
    *This link will expire in 5 minutes.*
+
    *If you did not mean to reset your credentials, safely ignore this message. No changes will be applied.*
 
 4. Follow the link and set your new password.
@@ -117,7 +121,8 @@ Reset your password and add an SSH key using Oro Identity Portal
 
 5. Enter your personal SSH public key into `Oro Identity Portal <https://idp.oro.cloud/auth/realms/ORO/protocol/openid-connect/auth?client_id=account&redirect_uri=https%3A%2F%2Fidp.oro.cloud%2Fauth%2Frealms%2FORO%2Faccount%2Flogin-redirect&state=0%2F751d0397-84bc-49a2-a386-d06072ad5b3f&response_type=code&scope=openid>`__ replacing the stub value created by the portal upon account generation.
 
-   .. warning:: The stub SSH public key created with your account has to be replaced with the SSH key that you are going to use for SSH connection. If you do not change the key, you will not be able to log in to your servers.
+   .. warning:: The stub SSH public key created with your account has to be replaced with the SSH key that you are going to use for SSH connection. If you do not change the key, you will not be able to log into your servers.
+
 
 6. Click **Save**.
 

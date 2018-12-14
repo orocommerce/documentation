@@ -5,7 +5,11 @@
 Connect OroCloud VPN
 ====================
 
-This topic explains how to connect OroCloud VPN to various operating systems.
+.. contents:: :local:
+   :depth: 1
+
+This topic explains how to connect OroCloud VPN on various operating systems.
+
 
 .. note:: If you are using different client software versions, ensure that you have OpenVPN version 2.4 or newer. Your OpenVPN configuration file (.ovpn) is sent to your e-mail. Save it in a secure place.
 
@@ -14,7 +18,7 @@ Username and password should be obtained using `ORO ID Portal <https://idp.oro.c
 MacOS X
 -------
 
-**Used client software: `Tunnelblick <https://tunnelblick.net/downloads.html>`__ 3.7.8 build 5180**
+Used client software: `Tunnelblick <https://tunnelblick.net/downloads.html>`__ 3.7.8 build 5180
 
 1. Download the DMG file and open it as usual.
 2. Run Tunnelblick installer:
@@ -44,7 +48,7 @@ MacOS X
 Ubuntu 18.04
 ------------
 
-**Used client software: openvpn 2.4.x, network-manager-openvpn, network-manager-openvpn-gnome**
+Used client software: openvpn 2.4.x, network-manager-openvpn, network-manager-openvpn-gnome
 
 1. Install the required packages:
 
@@ -76,11 +80,11 @@ Ubuntu 18.04
 Windows 10
 ----------
 
-**Used client software: OpenVPN GUI 2.4.6**
+Used client software: OpenVPN GUI 2.4.6
 
 1. Download and install OpenVPN GUI software. Accept installation for OpenVPN TAP driver.
 2. Launch OpenVPN GUI from desktop icon.
-3. Left click on tray icon, and select 'Import file...' option.
+3. Left click on tray icon and select **Import file**.
 
    .. image:: /cloud/img/cloud/import_file.png
 
