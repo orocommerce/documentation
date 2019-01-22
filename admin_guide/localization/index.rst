@@ -73,7 +73,8 @@ For detailed information on these topics, please see the following sections:
 * :ref:`Configure Language Settings <sys--config--sysconfig--general-setup--language-settings>`
 * :ref:`Translate Content <content-translation>`
 * :ref:`Translate Product Attribute Labels and Options <localization--translations--labels>`
-
+* :ref:`Translate Content Blocks <user-guide--landing-pages--marketing--content-blocks--translation>`
+* :ref:`Translate Consents <user-guide--consents--localizing-consents>`
 
 
 .. include:: /img/buttons/include_images.rst
