@@ -1,9 +1,9 @@
 .. _installation--parameters-yml-description:
 
 Infrastructure-related Oro Application Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================
 
-Infrastructure-related configuration parameters are stored in the *app/config/parameters.yml* file and grouped in the following way:
+Infrastructure-related configuration parameters are stored in the *config/parameters.yml* file and grouped in the following way:
 
 * The ``database_`` parameters are used to connect to the database.
 * The ``mailer_`` parameters define settings used to deliver emails sent by the application.
@@ -36,35 +36,35 @@ Default configuration options for the Oro application are provided in brackets b
       .. code-block:: text
           :linenos:
 
-             database_driver (pdo_mysql):
-             database_host (127.0.0.1):
-             database_port (null):
-             database_name (oro_crm):
-             database_user (root):
-             database_password (null):
-             mailer_transport (smtp):
-             mailer_host (127.0.0.1):
-             mailer_port (null):
-             mailer_encryption (null):
-             mailer_user (null):
-             mailer_password (null):
-             websocket_bind_address (0.0.0.0):
-             websocket_bind_port (8080):
-             websocket_frontend_host ('*'):
-             websocket_frontend_port (8080):
-             websocket_backend_host ('*'):
-             websocket_backend_port (8080):
-             session_handler (session.handler.native_file):
-             locale (en):
-             secret (ThisTokenIsNotSoSecretChangeIt):
-             installed (null):
-             assets_version (null):
-             assets_version_strategy: time_hash
+            database_driver (pdo_mysql):
+            database_host (127.0.0.1):
+            database_port (null):
+            database_name (oro_crm):
+            database_user (root):
+            database_password (null):
+            mailer_transport (smtp):
+            mailer_host (127.0.0.1):
+            mailer_port (null):
+            mailer_encryption (null):
+            mailer_user (null):
+            mailer_password (null):
+            websocket_bind_address (0.0.0.0):
+            websocket_bind_port (8080):
+            websocket_frontend_host ('*'):
+            websocket_frontend_port (8080):
+            websocket_backend_host ('*'):
+            websocket_backend_port (8080):
+            session_handler (session.handler.native_file):
+            locale (en):
+            secret (ThisTokenIsNotSoSecretChangeIt):
+            installed (null):
+            assets_version (null):
+            assets_version_strategy: time_hash
 
 The Sample of Configuration Parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The sample contents of the **<installation directory>/app/config/parameters.yml** file for OroCommerce:
+The sample contents of the **<installation directory>/config/parameters.yml** file for OroCommerce:
 
 .. code-block:: none
    :linenos:
