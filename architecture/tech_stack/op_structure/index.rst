@@ -3,11 +3,12 @@
 Operational Structure
 ---------------------
 
+.. contents:: :local:
+   :depth: 1
+
 Oro applications are implemented in PHP and require additional system components to be installed and configured in the environment. 
 
 .. image:: /admin_guide/img/op_structure/op_structure.png
-
-.. contents:: :local:
 
 Browser
 ^^^^^^^
@@ -63,7 +64,7 @@ Application functions use cache in order to optimize complex operations processi
 
 .. See more information about Redis.
 
-See more information about the :ref:`cache configuration <op-structure--cache>`.
+See more information about the `cache configuration <https://oroinc.com/oroplatform/doc/current/bundles/CacheBundle/cache>`__.
 
 Message Queue
 ~~~~~~~~~~~~~
