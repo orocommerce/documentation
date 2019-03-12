@@ -446,7 +446,7 @@ When you select the type of the integration on the user interface, you will see 
         */
        public function getIcon()
        {
-           return 'bundles/acmecollectondelivery/img/collect-on-delivery-icon.png';
+           return 'bundles/collectondelivery/img/collect-on-delivery-icon.png';
        }
    }
 
