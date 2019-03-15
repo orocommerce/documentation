@@ -1,6 +1,5 @@
 .. _search_index_overview:
 
-
 Search Index
 ============
 
