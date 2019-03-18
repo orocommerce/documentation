@@ -1,3 +1,7 @@
+.. _op-structure--mq--rabbitmq--configure:
+
+.. _op-structure--mq--rabbitmq--configure:
+
 Configure Message Queue with RabbitMQ for Production
 ====================================================
 
