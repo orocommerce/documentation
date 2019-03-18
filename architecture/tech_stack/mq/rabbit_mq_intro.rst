@@ -1,3 +1,5 @@
+.. _op-structure--mq--rabbitmq--intro:
+
 AmqpMessageQueue Component (Enterprise Edition Only)
 ====================================================
 
@@ -87,7 +89,7 @@ The config:
 
 .. code:: yaml
 
-    # app/config/config.yml
+    # config/config.yml
     oro_message_queue:
         transport:
             default: 'amqp'

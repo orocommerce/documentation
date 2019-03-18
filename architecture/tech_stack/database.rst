@@ -1,11 +1,12 @@
 .. _op-structure--database:
 
-DataBase System Component
-=========================
+Database
+========
 
 .. source: wiki 29 Nov 2017
 
 .. contents:: :local:
+   :depth: 2
 
 Overview
 --------

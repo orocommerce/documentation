@@ -1,10 +1,10 @@
 .. _op-structure--mq--index:
 
 Message Queue
--------------
+=============
 
 Concepts
-~~~~~~~~
+--------
 
 Message queues provide an asynchronous communications protocol, meaning
 that the sender and the receiver of the message do not need to interact
@@ -31,7 +31,7 @@ For more information, see the following external resources:
    Introduction <https://www.rabbitmq.com/tutorials/tutorial-one-php.html>`__
 
 Using Message Queue in Oro Application
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 .. toctree::
    :maxdepth: 1

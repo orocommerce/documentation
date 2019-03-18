@@ -1,3 +1,5 @@
+.. _op-structure--mq--rabbitmq :
+
 RabbitMQ Transport (via AmqpOroMessageQueue Bundle)
 ===================================================
 
