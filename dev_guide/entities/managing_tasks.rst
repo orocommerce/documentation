@@ -99,7 +99,7 @@ its data:
 
         private function update(Task $task, Request $request)
         {
-            $form = $this->createForm(new TaskType(), $task);
+            $form = $this->createForm(TaskType::class, $task);
 
             return array(
                 'entity' => $task,
