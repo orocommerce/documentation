@@ -31,7 +31,7 @@ needed to describe a task:
 
     class TaskType extends AbstractType
     {
-        public function buildForm(FormBuilderInterface $builder)
+        public function buildForm(FormBuilderInterface $builder, array $options)
         {
             $builder
                 ->add('subject')
