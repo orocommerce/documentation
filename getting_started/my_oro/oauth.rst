@@ -44,6 +44,8 @@ To add a new OAuth application in the management console:
 
 4. Click **Create**.
 
+A corresponding notification is sent to your primary email address. You can change the default recipient, localization, or an email content if needed by updating the :ref:`OAuth email templates <user-guide-using-emails-create-template>` and the related :ref:`notification rule <user-guide-using-emails-notifications>` set out-of-the-box in the system configuration.
+
 .. begin_2
 
 Once the application is created, you are provided with a Client ID and a Client Secret. Click on the |IcCopy| icon to copy the credentials to the clipboard.
@@ -53,7 +55,7 @@ Once the application is created, you are provided with a Client ID and a Client 
 
 .. important:: For security reasons, the Client Secret is displayed only once -- immediately after you have created a new application. You cannot view the Client Secret anywhere in the application once you close this dialog, so make sure you save it somewhere safe so you can access it later.
 
-You can add as many applications as you need for any of your existing organizations. All added applications are displayed in the grid and you can filter them by name, organization and status.
+You can add as many applications as you need for any of your existing organizations. All added applications are displayed in the grid, and you can filter them by name, organization, and status.
 
 .. hint:: Use the |IcMore| **More Options** menu to edit, deactivate or delete an application.
 
@@ -69,7 +71,7 @@ To configure machine-to-machine authentication and retrieve the access token:
 
 1. Provide your **Request URL**.
 
-   The Request URL consists of your application URL and the /oauth2-token slug, e.g. https://yourapplication/oauth2-token
+   The Request URL consists of your application URL and the /oauth2-token slug, e.g., https://yourapplication/oauth2-token
 
 2. Send a POST request with the following body parameters to the authorization server:
 
@@ -88,7 +90,7 @@ To configure machine-to-machine authentication and retrieve the access token:
 
 4. Use the generated access token to make requests to the API.
 
-   .. note:: Access tokens for backend and frontend API are not interchangeable. If you attempt to request data for the frontend API with a token generated for the backend application (i.e. a management console user), access will denied.
+   .. note:: Access tokens for backend and frontend API are not interchangeable. If you attempt to request data for the frontend API with a token generated for the backend application (i.e., a management console user), access will be denied.
 
 .. finish_2
 
