@@ -20,13 +20,13 @@ Overview
 
 In OroCommerce, you can view, edit and create new customer roles to define the level of permissions and access to the actions and data in the storefront for the users of this role.
 
-The following roles are predefined and available for every customer by default:
+The following roles are preconfigured and available for every customer by default:
 
 * **Administrator**
 * **Buyer**
 * **Non-authenticated user**
 
-Any new role is labeled as *customizable* and may apply either to the customer specified in the role details or globally for all customers when the customer is not provided.
+Each newly created role can be either of a *predefined* or *customizable* type. When a role is assigned a certain customer in the role details, it becomes *customizable* and is available only for this specific customer. If no customer is assigned, the role type becomes *predefined* enabling any customer to use it.
 
 .. image:: /user_guide/img/customers/customer_user_roles/CustomerUserRoles.png
    :class: with-border
