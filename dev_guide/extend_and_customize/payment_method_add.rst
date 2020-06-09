@@ -96,6 +96,17 @@ Create a Configuration File for the Service Container
 
 To start using a service container for your bundle, first create the configuration file <bundle_root>/Resources/config/services.yml.
 
+Create the configuration class
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some explanation for what this file is
+
+.. oro_integrity_check:: 3c198ccc9101e347c55f4a2b7929dc285d21eb5c
+
+   .. literalinclude:: ../../code_examples/payment_method/collect-on-delivery/DependencyInjection/Configuration.php
+      :language: php
+      :linenos:
+
 Set up Services with DependencyInjection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
