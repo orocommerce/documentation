@@ -525,13 +525,13 @@ layout.html.twig for the Order Review
      :linenos:
 
 
-layout.html for the Order Review
+layout.yml for the Order Review
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. oro_integrity_check:: 3488340424d34118e2ae37588a2ae84c957799ec
 
   .. literalinclude:: ../../code_examples/payment_method/collect-on-delivery/Resources/views/layouts/default/imports/oro_payment_method_order_submit/layout.yml
-     :language: html
+     :language: yaml
      :linenos:
 
 
