@@ -491,7 +491,7 @@ For this, in the directory <bundle_root>/Resources/views/layouts/default/imports
  and for the order review:
 
 - oro_payment_method_order_submit/layout.html.twig
-- oro_payment_method_order_submit/layout.html
+- oro_payment_method_order_submit/layout.yml
 
 layout.html.twig for the Payment Method Selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -531,7 +531,7 @@ layout.html for the Order Review
 .. oro_integrity_check:: 3488340424d34118e2ae37588a2ae84c957799ec
 
   .. literalinclude:: ../../code_examples/payment_method/collect-on-delivery/Resources/views/layouts/default/imports/oro_payment_method_order_submit/layout.yml
-     :language: html
+     :language: yaml
      :linenos:
 
 
