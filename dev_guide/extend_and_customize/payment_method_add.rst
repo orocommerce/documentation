@@ -505,8 +505,8 @@ layout.html.twig for the Payment Method Selection
 
 Note that the custom message to appear in the block is defined. Do not forget to add translations in the messages.en.yml for any custom text that you add.
 
-layout.html for the Payment Method Selection
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+layout.yml for the Payment Method Selection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. oro_integrity_check:: 3488340424d34118e2ae37588a2ae84c957799ec
 
