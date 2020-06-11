@@ -421,7 +421,7 @@ Factory Class
 Create Provider for the Main Method
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To add a payment method provider, create <bundle_root>/PaymentMethod/Provider/CollectOnDeliveryProvider.php:
+To add a payment method provider, create <bundle_root>/PaymentMethod/Provider/CollectOnDeliveryMethodProvider.php:
 
 
 Provider Class
