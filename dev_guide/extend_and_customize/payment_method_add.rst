@@ -367,7 +367,7 @@ Payment Method View Provider Class
 Implement the Payment Method View
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Finally, to implement the payment method view, create <bundle_root>/PaymentMethod/ViewCollectOnDeliveryView.php:
+Finally, to implement the payment method view, create <bundle_root>/PaymentMethod/View/CollectOnDeliveryView.php:
 
 
 Payment Method View Class
@@ -474,7 +474,7 @@ To register the payment method main factory and provider, append the following k
 
   .. literalinclude:: ../../code_examples/payment_method/collect-on-delivery/Resources/config/services.yml
      :language: yaml
-     :lines: 50-61
+     :lines: 54-61
      :linenos:
 
 
